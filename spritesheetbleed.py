@@ -62,9 +62,9 @@ spritesheet_new = np.zeros( (SPRITESHEET_HEIGHT+(((ROW_COUNT-1)*2)*BLEED_AMOUNT)
 
 TILE_SIZE_PADDED = TILE_SIZE+(BLEED_AMOUNT*2)
 
-nRowBleeds = 1
+nRowBleeds = BLEED_AMOUNT
 for row in range(0,ROW_COUNT):
-	nColBleeds = 1
+	nColBleeds = BLEED_AMOUNT
 	for col in range(0,COLUMN_COUNT):
 		# Get the tile from the original tile sheet
 		tile = spritesheet_original[row*TILE_SIZE:(row+1)*TILE_SIZE, col*TILE_SIZE:(col+1)*TILE_SIZE, :]
