@@ -27,3 +27,6 @@ Another reference to sprite sheet bleeding:
 
 https://tiled2unity.readthedocs.io/en/latest/fixing-seams/
 
+A nice video the clearly explains the problem in Unity;
+
+https://youtu.be/QW53YIjhQsA
