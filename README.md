@@ -8,9 +8,13 @@ Usage:
 python spritesheetbleed.py -i tilesheet.png -s 16
 
 For unity, within the sprite editor for a tilemap, slice (Grid by Cell size) settings:
+
 Pixel size = TILE_SIZE
+
 Offset = BLEED_AMOUNT
+
 Padding = BLEED_AMOUNT*2
+
 
 There is a shell script (using ImageMagick) that I based mine on (I re-implemented in python as I prefer it):
 https://charliejwalter.net/spritesheet-bleed/
