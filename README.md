@@ -17,9 +17,13 @@ Padding = BLEED_AMOUNT*2
 
 
 There is a shell script (using ImageMagick) that I based mine on (I re-implemented in python as I prefer it):
+
 https://charliejwalter.net/spritesheet-bleed/
+
 https://github.com/cjonasw/tile-bleed-margin-generator
 
+
 Another reference to sprite sheet bleeding:
+
 https://tiled2unity.readthedocs.io/en/latest/fixing-seams/
 
