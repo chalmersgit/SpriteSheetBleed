@@ -1,7 +1,7 @@
 # SpriteSheetBleed
 A simple python script that "bleeds" a sprite sheet (tilemap) to fix seam artefacts that occur when rendering tilemaps.
 
-I use this script to fix an issue I had within Unity. Even though I use a pixel perfect camera, point filtering, and turned off anti-aliasing (among other suggestions I found online), I still occasionally get seam artifacts. The only way I could fix this reliably was to "bleed" (pad) the tiles. 
+I used this script to fix an issue I had within Unity. Even though I used a pixel perfect camera, point filtering, and turned off anti-aliasing (among other suggestions I found online), I would still occasionally get seam artifacts. The only way I could fix this reliably was to "bleed" (pad) the tiles. 
 
 Usage:
 
